@@ -5,11 +5,10 @@ background("black");
 
 function draw() {
 stroke ("blue");
-fill("purple");
+fill("red");
 
-if(mouseIsPressed){ 
-  rect(mouseX, mouseY,20, 35);
+if(mouseIsPressed) { 
+  rect(mouseX, mouseY, 20, 35);
+
    }
-
  }
- 
